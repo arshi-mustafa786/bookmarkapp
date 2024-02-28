@@ -1,0 +1,8 @@
+<form action="" class="login_form">
+    <label for="book" class="book">
+        Book Name
+        <input type="text" name="book" id="book" class="login_book" required [(ngModel)]="book.title">
+    </label>
+    <button class="button" type="button" (click)="addBook()">Submit</button>
+    
+</form>

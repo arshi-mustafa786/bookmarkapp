@@ -1,0 +1,36 @@
+table{
+    width : 300px;
+    
+    overflow: scroll;
+    background-color: aliceblue;
+    border: 1px solid;
+}
+
+tr{
+    width : 100%;
+    text-align: center;
+    border: 1px solid;
+}
+td,th{
+    border: 1px solid;
+}
+th{
+    font-weight: 800;
+    font-size: large;
+}
+tbody{
+    width: 100%;
+}
+.container{
+    width : 100%;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    width: 200px;
+    background-color: black;
+    color: white;
+}

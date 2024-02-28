@@ -1,0 +1,23 @@
+<div class="container">
+    <table>
+        <thead>
+            <th>Book Name</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+    <tbody>
+    @for (book of books; track book.id) {
+        <tr>
+            <td>{{book.title}}</td>
+            <td><a >Edit</a></td>
+            <td><button type="button" (click)="delete(book)">Delete</button></td>
+        </tr>
+      } @empty {
+        Empty list of Books
+      }
+    </tbody>
+    </table>
+
+    <button class="button" (click)="addBook()">Add new book</button>
+</div>
+

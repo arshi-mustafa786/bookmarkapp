@@ -1,0 +1,28 @@
+.login_form{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    margin: 2rem auto;
+    flex-direction: column;
+    row-gap: 10px;
+    box-shadow: 1px 1px 2px 2px #ccc;
+    padding: 1rem;
+}
+.book{
+    font-weight: 400;
+    width: 100%;
+}
+.login_book{
+    display: flex;
+    width: 100%;
+}
+
+.button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-shadow: none;
+    inset: none;
+    padding: 0.5rem;
+}
